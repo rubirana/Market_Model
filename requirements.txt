@@ -1,0 +1,6 @@
+python 3.10.9
+pyomo 6.5.0
+pandas
+numpy
+matplotlib
+GLPK solver
