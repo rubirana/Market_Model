@@ -356,7 +356,7 @@ def calculate_battery_degradation_cost(results_dict,case):
     return daily_degradation_costs
 
 def calculate_profit(daily_total_cost_market,daily_total_revenue_market,case):
-    daily_fixed_operational_cost=case['Fixed Operational Costs']/case['no_days']
+    daily_fixed_operational_cost=case['Fixed Operational Costs']/365
     daily_profit_market=daily_total_revenue_market-daily_total_cost_market-daily_fixed_operational_cost
     return daily_profit_market
 
